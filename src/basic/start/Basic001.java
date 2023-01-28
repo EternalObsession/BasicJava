@@ -1,4 +1,4 @@
-package basic.ÈëÃÅ´úÂë;
+package basic.start;
 
 public class Basic001 {
 
