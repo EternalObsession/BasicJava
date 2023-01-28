@@ -9,11 +9,12 @@ public class Basic001 {
 //        f.setIconImage(new ImageIcon("img\\component\\female.png").getImage());
 //      f.setIconImage(Toolkit.getDefaultToolkit().getImage("img\\component\\female.png"));
         int j=0;
-        for(int i=1;i<=1000000;i++){
+        for(int i=1;i<=10000;i++){
             j=i;
+            System.out.println(j);
         }
 
         long end = System.currentTimeMillis();
-        System.out.println("total:"+j+" ºÄÊ±£º"+(end-start) +"ºÁÃë");
+        System.out.println("total:"+j+" è€—æ—¶ï¼š"+(end-start) +"æ¯«ç§’");
     }
 }
